@@ -45,7 +45,7 @@ class BasicSimulation extends Simulation {
         .get("/devops_proj/")
         .headers(headers_0)
     )
-    .pause(25)
+    .pause(120)
     .exec(
       http("request_1")
         .get("/devops_proj/welcome.jsp?uname=3&number=2")
